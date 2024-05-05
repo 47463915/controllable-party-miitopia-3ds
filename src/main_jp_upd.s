@@ -7,5 +7,7 @@
 	NOP
 .org 0x5D4718 // force skills menu to always open the first page
 	MOV R6, #0
+.org 0x6AEE34 // force autobattle button to show up without main hero in party 
+	NOP
 
 .close
