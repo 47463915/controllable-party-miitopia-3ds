@@ -8,5 +8,5 @@ Requirements:
 - Decompressed `code.bin` of your Miitopia dump placed in the `src` folder
 
 Then you can compile using `make REGION`, REGION being the region of your Miitopia copy **(us, eu, jp)** to apply the IPS patch on.
-### Compiling with the JP version of Miitopia
-This version of Miitopia has received an update (v1.2.0), thus there are 2 patches, one for the base game and another for the update, if your `code.bin` is from the update, then you can use `make jp_upd` to compile the patch meant for the update rather than the base game itself, however if the `code.bin` is not from the update, you can just use `make jp`.
+### Compiling for the JP version of Miitopia
+This version of Miitopia has received an update (v1.1), thus there are 2 patches, one for the base game and one for the update, if your `code.bin` is from the update, then you have to use `make jp_upd` to compile the patch meant for the update instead of the base game.
