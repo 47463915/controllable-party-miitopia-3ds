@@ -1,7 +1,7 @@
 .3ds
 .open "src/code.bin", "build/patched_code.bin", 0x100000
 
-// jp (v1.2.0) patch
+// jp (v1.1) patch
 .org 0x6ACA80 // control teammates
 	NOP
 	NOP
